@@ -1,4 +1,4 @@
-![nvim logo](./assets/logo/logo.svg)
+![nvim logo](https://upload.wikimedia.org/wikipedia/commons/4/4f/Neovim-logo.svg)
 
 # My awesome dotfiles
 
