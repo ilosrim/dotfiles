@@ -15,7 +15,7 @@ mv ~/.local/state/nvim{,.bak}
 mv ~/.cache/nvim{,.bak}
 ```
 
-- Clone the repo
+- Switch to `nvchad` branch before cloning
 ```
 git clone https://github.com/ilosrim/dotfiles.git ~/.config/nvim
 ```
