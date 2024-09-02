@@ -1,9 +1,31 @@
-**This repo is supposed to used as config by NvChad users!**
+![nvim logo](https://upload.wikimedia.org/wikipedia/commons/4/4f/Neovim-logo.svg)
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
+# My awesome NvChad dotfiles
 
-# Credits
+How to install?
 
-1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
+- Make a backup of your current Neovim files:
+```
+# required
+mv ~/.config/nvim{,.bak}
+
+# optional but recommended
+mv ~/.local/share/nvim{,.bak}
+mv ~/.local/state/nvim{,.bak}
+mv ~/.cache/nvim{,.bak}
+```
+
+- Clone the repo
+```
+git clone https://github.com/ilosrim/dotfiles.git ~/.config/nvim
+```
+
+- Remove the .git folder, so you can add it to your own repo later
+```
+rm -rf ~/.config/nvim/.git
+```
+
+- Start Neovim!
+```
+nvim
+```
