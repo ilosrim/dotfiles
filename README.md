@@ -3,6 +3,7 @@
 # My awesome NvChad dotfiles
 
 How to install?
+> Make sure your neovim version is equal to or higher than v0.10.x before installing the program
 
 - Make a backup of your current Neovim files:
 ```
