@@ -18,7 +18,7 @@ mv ~/.cache/nvim{,.bak}
 
 - Clone the repo
 
-> If you want to use NvChad, which has a lot of functionality and themes, first go to the `nvchad` branch and clone it, or after cloning, go to the `nvchad` branch through the terminal and then run the program. Detailed information is available on the official website of [NvChad](https://nvchad.com/).
+> If you want to use NvChad, which has a lot of functionality and themes, first go to the `nvchad` branch and clone it, or after cloning, go to the `nvchad` branch through the terminal, write `git pull origin nvchad` and then run the program. Detailed information is available on the official website of [NvChad](https://nvchad.com/).
 ```
 git clone https://github.com/ilosrim/dotfiles.git ~/.config/nvim
 ```
